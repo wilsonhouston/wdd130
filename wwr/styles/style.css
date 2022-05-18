@@ -82,3 +82,7 @@ footer a:hover{
 footer h3 a:hover{
     text-decoration: underline;
 }
+
+h1 {
+    background-color: white;
+}
