@@ -195,6 +195,46 @@ footer.social img {
     margin: 50px auto;
     width: 60%;
 }
+.idaho-stock, .utah-stock, .arizona-stock {
+    margin: 100px auto;
+    width: 50% ;
+    height: 40px auto;
+}
+.sites {
+    background-color: #B4BDAE;
+}
+.body {
+    font-size: large;
+    color: white;
+}
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(3 5fr);
+    grid-template-rows: repeat(3 5fr);
+}
+.idaho {
+    grid-column: 1/10;
+    grid-row: 1/2;
+}
+.arizona {
+    grid-column: 1/10;
+    grid-row: 3/4;
+}
+.utah {
+    grid-column: 1/10;
+    grid-row: 2/3;
+}
+.idaho-stock {
+    float: right;
+}
+.utah-stock {
+    float: left;
+}
+.arizona-stock {
+    float: right;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
