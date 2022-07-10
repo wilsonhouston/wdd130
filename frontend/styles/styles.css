@@ -1,5 +1,5 @@
 #content {
-    max-width: 2500px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 header{
@@ -7,15 +7,16 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: grid;
     grid-template-columns: 150px auto;
+    height: 100%;
+    width: 100%;
 
 }
 .name {
     color: white;
     font-family: "Noto Sans Display", Helvetica, sans-serif;
-    font-size: 190px ;
+    font-size: 50px ;
     background-color: #F7B267;
     grid-column: 2/5;
-    margin: 10px 10px 10px 10px;
     float: right;
 }
 #logo_link{
@@ -24,12 +25,12 @@ header{
     color: aqua;
  }
  .search-box input[type=text] {
-    padding: 10px;
+    padding: 5px;
     font-size: 17px;
     border: none;
     float: left;
-    height: 50px;
-    width: 1210px;
+    height: 30px;
+    width: 900px;
     background: #f1f1f1;
     border-radius: 30px;
     background-color: white;
@@ -39,15 +40,17 @@ header{
     grid-row: 3;
     float: right;
 }
-.profile-links{
-    font-size: 30px;
-
-}
  a {
     text-align: center;
     color: #F25C54;
     text-decoration: none;
-    padding: 35px;
+    padding: 10px;
+    width: 100%;
+    
+}
+.profile-icon {
+    width: 150px;
+    cursor: pointer;
 }
 
 .header-nav{
@@ -59,28 +62,33 @@ nav a:hover{
     background-color: #F25C54;
     color: #F7B267;
     border-radius: 100px;
+    
 }
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    color: #B4BDAE;
+    text-decoration: none;
+    padding: 35px;
 }
 body{
     background-color: #B4BDAE;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    padding: 10px;
 }
 #background {
     background-color: white;
-    height: 725px;
+    height: 50px;
     grid-column: 1/11;
     grid-row: 4/9;
     color: #f1f1f1;
 }
 footer{
     background-color: #F7B267;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
@@ -90,10 +98,9 @@ footer{
     width: 80px;
 }
 .icon{
-    width: 80px;
+    width: 10px;
     padding-top: 10px;
 }
 footer h3 a:hover{
     text-decoration: underline;
 }
-  
