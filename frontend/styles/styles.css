@@ -104,3 +104,24 @@ footer{
 footer h3 a:hover{
     text-decoration: underline;
 }
+
+.text {
+    color: #F25C54;
+    text-align: center;
+}
+.lantern {
+    height: 500px;
+}
+.group_game{
+    height: 500px;
+}
+.couple_carnival{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.fmarkers {
+    display:block;
+    align-items: center;
+    background-color: aqua;
+}
